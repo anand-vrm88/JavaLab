@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0" >
+
+    <display-name></display-name>
+    <description>
+
+    </description>
+
+    <servlet>
+        <servlet-name>GameInit</servlet-name>
+        <jsp-file>/gameinit.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>GameInit</servlet-name>
+        <url-pattern>/gameinit</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>PlayerInit</servlet-name>
+        <jsp-file>/playerinit.jsp</jsp-file>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>PlayerInit</servlet-name>
+        <url-pattern>/playerinit</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BattleShipInit</servlet-name>
+        <jsp-file>/battleshipinit.jsp</jsp-file>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>BattleShipInit</servlet-name>
+        <url-pattern>/battleshipinit</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GamePlay</servlet-name>
+        <jsp-file>/gameplay.jsp</jsp-file>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>GamePlay</servlet-name>
+        <url-pattern>/gameplay</url-pattern>
+    </servlet-mapping>
+</web-app> 
